@@ -1,7 +1,7 @@
 {
   "name": "esbuild-plugin-style-inject",
   "version": "0.0.1-alpha.1",
-  "description": "Inject styles (less and css) into the document.",
+  "description": "An esbuild plugin to inject styles (less or css) into the document.",
   "main": "index.cjs",
   "types": "index.d.ts",
   "peerDependencies": {
@@ -18,6 +18,10 @@
     "less",
     "inject"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "john-yuan",
   "license": "MIT"
 }

@@ -1,9 +1,14 @@
 # README
 
-Inject styles (less and css) into the document.
+An esbuild plugin to inject styles (less or css) into the document.
+
+This plugin will bundle the less or css code into the JavaScript code.
 
 ```bash
+# Install less as peer dependency
 npm i less
+
+# Install the plugin
 npm i esbuild-plugin-style-inject
 ```
 
@@ -48,3 +53,7 @@ build({
   ]
 })
 ```
+
+## License
+
+[MIT](./LICENSE)
