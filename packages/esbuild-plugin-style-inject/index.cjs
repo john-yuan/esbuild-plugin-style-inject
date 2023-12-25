@@ -9,8 +9,7 @@ const { render } = (function () {
   return {}
 })()
 
-const code = `
-;(function (css) {
+const code = `(function (css) {
   if (typeof document !== 'undefined' && document.head) {
     var style = document.createElement('style')
     style.setAttribute('type', 'text/css')
