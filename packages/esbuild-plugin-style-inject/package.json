@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-style-inject",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1",
   "description": "An esbuild plugin to inject styles (less or css) into the document.",
   "main": "index.cjs",
   "types": "index.d.ts",
