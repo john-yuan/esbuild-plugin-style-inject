@@ -1,5 +1,9 @@
 # README
 
+[![npm version](https://img.shields.io/npm/v/esbuild-plugin-style-inject)](https://www.npmjs.com/package/esbuild-plugin-style-inject)
+[![install size](https://packagephobia.now.sh/badge?p=esbuild-plugin-style-inject)](https://packagephobia.now.sh/result?p=esbuild-plugin-style-inject)
+[![npm downloads](https://img.shields.io/npm/dm/esbuild-plugin-style-inject.svg)](https://npm-stat.com/charts.html?package=esbuild-plugin-style-inject)
+
 An esbuild plugin to inject styles (less or css) into the document.
 
 This plugin will bundle the less or css code into the JavaScript code.
