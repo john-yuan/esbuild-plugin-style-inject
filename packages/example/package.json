@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "node ./build.js",
+    "dev": "node ./build.js && http-server ."
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.10",
+    "esbuild-plugin-style-inject": "workspace:^",
+    "http-server": "^14.1.1"
+  }
+}
